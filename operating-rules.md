@@ -38,6 +38,8 @@ Every backup and every important memory write must also sync to the Obsidian Vau
 - Completion is not a stopping point — queue a harder follow-up
 - **YouTube Studio/High-Security Interaction Rule:** Avoid synthesized `click/type` tool actions via `profile: "chrome"` if timeouts occur. Pivot immediately to raw JavaScript injection (`evaluate`), OS-level `agent-browser` CLI, or a headless profile (`profile: "openclaw"`) to bypass relay latency.
 - **Relay-Independence Protocol (MANDATORY):** If a task requires browser interaction and the relay is OFF or timing out, the agent MUST NOT wait or ask for manual intervention. It must immediately spawn a headless worker or use OS-level automation to finish the task. Momentum must not break for a relay toggle.
+- **Overnight Batch Approval Workflow:** During overnight shifts, prepare all completed work into an "Approval Dashboard" (markdown file with inline buttons/summaries). The user should wake up to a single list of actions to "Approve/Execute."
+- **Credibility Check (MANDATORY):** Before outputting public links, social copy, or distribution packages, the agent must verify all links are valid and functional. No placeholder links in "final" delivery.
 - **ACP First for Complex Workflows:** For multi-step distribution or coding tasks, spawn a persistent ACP session (`runtime: "acp"`) instead of relying on one-shot sub-agents.
 
 ## Safety
