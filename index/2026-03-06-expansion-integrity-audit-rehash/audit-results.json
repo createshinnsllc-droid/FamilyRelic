@@ -1,0 +1,512 @@
+{
+  "timestamp": "2026-03-06T04-31-08",
+  "targets": [
+    "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v5",
+    "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4"
+  ],
+  "counts": {
+    "EXHAUSTIVE_CONSOLIDATION_2026-03-06_v5": 6276,
+    "EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4": 3004
+  },
+  "delta_v5_vs_v4": {
+    "new_files": 3388,
+    "removed_files": 116,
+    "drift_files": 41,
+    "common_files": 2888
+  },
+  "new_file_examples": [
+    "Users_tydroelite_.openclaw/agents/main/sessions/0cf1867d-a694-4658-b239-6d2334167738.jsonl",
+    "Users_tydroelite_.openclaw/agents/main/sessions/19404a6b-049b-49a4-ac3a-933063ed90bc.jsonl",
+    "Users_tydroelite_.openclaw/agents/main/sessions/206cdc31-cd7e-4085-b766-a11421f993d3.jsonl",
+    "Users_tydroelite_.openclaw/agents/main/sessions/2d33b542-4618-4880-a8b0-525f5c3063ce.jsonl",
+    "Users_tydroelite_.openclaw/agents/main/sessions/79fb2ac5-02be-43e9-a140-a9698d1f97a0.jsonl",
+    "Users_tydroelite_.openclaw/agents/main/sessions/8e434624-66e0-43b0-8428-6154e796d330.jsonl.deleted.2026-03-06T09-07-50.226Z",
+    "Users_tydroelite_.openclaw/agents/main/sessions/a7ba5bba-4adf-4067-871b-28e0a7d5697e.jsonl",
+    "Users_tydroelite_.openclaw/agents/main/sessions/ac1b0f99-83bd-443c-878a-0cd1c3c4ef66.jsonl",
+    "Users_tydroelite_.openclaw/agents/main/sessions/af906609-840b-4c25-8f01-4981091818b5.jsonl",
+    "Users_tydroelite_.openclaw/agents/main/sessions/cfa7da72-b4db-4d59-8909-4d027f24f9b9.jsonl",
+    "Users_tydroelite_.openclaw/cron/runs/376af049-6088-4efd-a41d-e8b1d6db72fa.jsonl",
+    "Users_tydroelite_.openclaw/cron/runs/4aa986de-d7ec-413d-86b7-fc92aa24ea00.jsonl",
+    "Users_tydroelite_.openclaw/cron/runs/649b56da-9e22-45b0-ac3f-e8cfb67c3279.jsonl",
+    "Users_tydroelite_.openclaw/workspace/.git/objects/05/4cf5f0978909b90a0b58d9b4cdca13865538d1",
+    "Users_tydroelite_.openclaw/workspace/.git/objects/22/61a283716cd6e22872bcd62f44eadca8a11791",
+    "Users_tydroelite_.openclaw/workspace/.git/objects/2f/1647ea70c766f04896621673b96f60eebf0e96",
+    "Users_tydroelite_.openclaw/workspace/.git/objects/37/120d1c07ac66913c82879c626ca35fa7958df5",
+    "Users_tydroelite_.openclaw/workspace/.git/objects/3e/543b87c84cb1e5a573b7c249d02b5da210e4d3",
+    "Users_tydroelite_.openclaw/workspace/.git/objects/40/5a3dc4be7232d64a0d8fa5e33a5a2bfd12d5b1",
+    "Users_tydroelite_.openclaw/workspace/.git/objects/50/c8ff738036c5d67944caf3c3eb43e745239a1c"
+  ],
+  "removed_file_examples": [
+    "Users_tydroelite_.openclaw/agents/main/sessions/3d8ba03c-6d52-4e84-b876-a2bf52f66b19.jsonl.lock",
+    "Users_tydroelite_Documents_Obsidian_Vault_Memory/Checkpoints/OPENCLAW_MASTER_CHECKPOINT_2026-03-05.md",
+    "Users_tydroelite_Documents_Obsidian_Vault_Memory/Checkpoints/PERSISTENT_LEDGER_2026-01_to_PRESENT.md",
+    "Users_tydroelite_Documents_Obsidian_Vault_Memory/Daily/2026-02-05.md",
+    "Users_tydroelite_Documents_Obsidian_Vault_Memory/Daily/2026-02-08.md",
+    "Users_tydroelite_Documents_Obsidian_Vault_Memory/Daily/2026-02-09.md",
+    "Users_tydroelite_Documents_Obsidian_Vault_Memory/Daily/2026-02-09_catchup_summary.md",
+    "Users_tydroelite_Documents_Obsidian_Vault_Memory/Daily/2026-02-09_social_business.md",
+    "Users_tydroelite_Documents_Obsidian_Vault_Memory/Daily/2026-02-09_telegram_catchup.md",
+    "Users_tydroelite_Documents_Obsidian_Vault_Memory/Daily/2026-02-10.md",
+    "Users_tydroelite_Documents_Obsidian_Vault_Memory/Daily/2026-02-23.md",
+    "Users_tydroelite_Documents_Obsidian_Vault_Memory/Daily/2026-02-24.md",
+    "Users_tydroelite_Documents_Obsidian_Vault_Memory/Daily/2026-02-26-0814.md",
+    "Users_tydroelite_Documents_Obsidian_Vault_Memory/Daily/2026-02-26-0815.md",
+    "Users_tydroelite_Documents_Obsidian_Vault_Memory/Daily/2026-02-26-1820.md",
+    "Users_tydroelite_Documents_Obsidian_Vault_Memory/Daily/2026-02-26-1827.md",
+    "Users_tydroelite_Documents_Obsidian_Vault_Memory/Daily/2026-02-26-gateway-session.md",
+    "Users_tydroelite_Documents_Obsidian_Vault_Memory/Daily/2026-02-26-openclaw-status.md",
+    "Users_tydroelite_Documents_Obsidian_Vault_Memory/Daily/2026-02-26-openclaw-version.md",
+    "Users_tydroelite_Documents_Obsidian_Vault_Memory/Daily/2026-03-01-2227.md"
+  ],
+  "drift_examples": [
+    {
+      "key": "Users_tydroelite_.openclaw/agents/main/agent/auth-profiles.json",
+      "v5_size": 9115,
+      "v4_size": 9115,
+      "v5_mtime": 1772788415,
+      "v4_mtime": 1772787070
+    },
+    {
+      "key": "Users_tydroelite_.openclaw/agents/main/sessions/3d8ba03c-6d52-4e84-b876-a2bf52f66b19.jsonl",
+      "v5_size": 1347306,
+      "v4_size": 1322784,
+      "v5_mtime": 1772787119,
+      "v4_mtime": 1772787067
+    },
+    {
+      "key": "Users_tydroelite_.openclaw/agents/main/sessions/800c44d5-3a1e-4eb5-9835-b28cddd94641.jsonl",
+      "v5_size": 2480104,
+      "v4_size": 2369825,
+      "v5_mtime": 1772788415,
+      "v4_mtime": 1772787070
+    },
+    {
+      "key": "Users_tydroelite_.openclaw/agents/main/sessions/8e434624-66e0-43b0-8428-6154e796d330.jsonl",
+      "v5_size": 938,
+      "v4_size": 179953,
+      "v5_mtime": 1772788082,
+      "v4_mtime": 1772786975
+    },
+    {
+      "key": "Users_tydroelite_.openclaw/agents/main/sessions/sessions.json",
+      "v5_size": 1120734,
+      "v4_size": 761121,
+      "v5_mtime": 1772788415,
+      "v4_mtime": 1772787070
+    },
+    {
+      "key": "Users_tydroelite_.openclaw/cron/jobs.json",
+      "v5_size": 17973,
+      "v4_size": 16515,
+      "v5_mtime": 1772788200,
+      "v4_mtime": 1772787000
+    },
+    {
+      "key": "Users_tydroelite_.openclaw/cron/jobs.json.bak",
+      "v5_size": 18049,
+      "v4_size": 16317,
+      "v5_mtime": 1772788200,
+      "v4_mtime": 1772787000
+    },
+    {
+      "key": "Users_tydroelite_.openclaw/cron/runs/4aebf5fa-55cf-41a9-9472-f611a048b7f8.jsonl",
+      "v5_size": 5122,
+      "v4_size": 2565,
+      "v5_mtime": 1772788095,
+      "v4_mtime": 1772786211
+    },
+    {
+      "key": "Users_tydroelite_.openclaw/cron/runs/6d3e1470-9587-47db-ac60-da67df37546b.jsonl",
+      "v5_size": 4583,
+      "v4_size": 2210,
+      "v5_mtime": 1772786658,
+      "v4_mtime": 1772786658
+    },
+    {
+      "key": "Users_tydroelite_.openclaw/cron/runs/8096ebac-6b50-4b11-ba02-2f539c64861d.jsonl",
+      "v5_size": 5114,
+      "v4_size": 2561,
+      "v5_mtime": 1772787946,
+      "v4_mtime": 1772786860
+    },
+    {
+      "key": "Users_tydroelite_.openclaw/identity/device-auth.json",
+      "v5_size": 428,
+      "v4_size": 428,
+      "v5_mtime": 1772788359,
+      "v4_mtime": 1772787070
+    },
+    {
+      "key": "Users_tydroelite_.openclaw/memory/main.sqlite",
+      "v5_size": 69632,
+      "v4_size": 69632,
+      "v5_mtime": 1772787962,
+      "v4_mtime": 1772786752
+    },
+    {
+      "key": "Users_tydroelite_.openclaw/openclaw.json",
+      "v5_size": 5445,
+      "v4_size": 5445,
+      "v5_mtime": 1772788134,
+      "v4_mtime": 1772786834
+    },
+    {
+      "key": "Users_tydroelite_.openclaw/state/canary-status.json",
+      "v5_size": 233,
+      "v4_size": 233,
+      "v5_mtime": 1772788200,
+      "v4_mtime": 1772786983
+    },
+    {
+      "key": "Users_tydroelite_.openclaw/state/model-health-router.json",
+      "v5_size": 85,
+      "v4_size": 85,
+      "v5_mtime": 1772788134,
+      "v4_mtime": 1772786834
+    },
+    {
+      "key": "Users_tydroelite_.openclaw/subagents/runs.json",
+      "v5_size": 8288,
+      "v4_size": 6053,
+      "v5_mtime": 1772788070,
+      "v4_mtime": 1772786976
+    },
+    {
+      "key": "Users_tydroelite_.openclaw/telegram/update-offset-default.json",
+      "v5_size": 73,
+      "v4_size": 73,
+      "v5_mtime": 1772788416,
+      "v4_mtime": 1772787029
+    },
+    {
+      "key": "Users_tydroelite_.openclaw/workspace/.git/COMMIT_EDITMSG",
+      "v5_size": 97,
+      "v4_size": 62,
+      "v5_mtime": 1772787515,
+      "v4_mtime": 1772785444
+    },
+    {
+      "key": "Users_tydroelite_.openclaw/workspace/.git/index",
+      "v5_size": 2956,
+      "v4_size": 2755,
+      "v5_mtime": 1772787515,
+      "v4_mtime": 1772785444
+    },
+    {
+      "key": "Users_tydroelite_.openclaw/workspace/.git/logs/HEAD",
+      "v5_size": 4281,
+      "v4_size": 3800,
+      "v5_mtime": 1772787515,
+      "v4_mtime": 1772785444
+    }
+  ],
+  "spot_checks": {
+    "EXHAUSTIVE_CONSOLIDATION_2026-03-06_v5": [
+      {
+        "key": "Users_tydroelite_.openclaw/EXTERNAL_BACKUP_POINTER.txt",
+        "file": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v5/RAW/Users_tydroelite_.openclaw/EXTERNAL_BACKUP_POINTER.txt",
+        "sha256": "69bae9dd2ac2c5417b04ce8eb8b5d7cc495cf04745e350faa382d1e59d3a6571",
+        "size": 74
+      },
+      {
+        "key": "Users_tydroelite_Documents_Obsidian Vault_Memory/Daily/2026-03-04.md",
+        "file": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v5/RAW/Users_tydroelite_Documents_Obsidian Vault_Memory/Daily/2026-03-04.md",
+        "sha256": "57bd63cc051b9dae857e4a6daaa4cfd7c3c733033e026c0f9edb02c769c8a1ed",
+        "size": 2732
+      },
+      {
+        "key": "Volumes_Expansion_.openclaw/agents/main/sessions/cdbaefc3-0cb0-4ce1-9746-2bd4b22365fb.jsonl.deleted.2026-03-03T23-37-18.111Z",
+        "file": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v5/RAW/Volumes_Expansion_.openclaw/agents/main/sessions/cdbaefc3-0cb0-4ce1-9746-2bd4b22365fb.jsonl.deleted.2026-03-03T23-37-18.111Z",
+        "sha256": "3a11328502030172db02acb3a46a7811df57189cbefb1abf2b579b73861968c1",
+        "size": 4254
+      },
+      {
+        "key": "Volumes_Expansion_.openclaw/browser/openclaw/user-data/Default/Code Cache/js/0383b9ec850896f8_0",
+        "file": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v5/RAW/Volumes_Expansion_.openclaw/browser/openclaw/user-data/Default/Code Cache/js/0383b9ec850896f8_0",
+        "sha256": "0cf2d7ff1423358bb6905c5380de254403fb74eeceed45f29e0b3b0a623e389a",
+        "size": 268
+      },
+      {
+        "key": "Volumes_Expansion_.openclaw/browser/openclaw/user-data/optimization_guide_model_store/24/E6DC4029A1E4B4C1/29536C268049E2DA/model-info.pb",
+        "file": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v5/RAW/Volumes_Expansion_.openclaw/browser/openclaw/user-data/optimization_guide_model_store/24/E6DC4029A1E4B4C1/29536C268049E2DA/model-info.pb",
+        "sha256": "6afefce5beb3c49339ceb42d6d01e5a96bfcb62162988ed775eb4e8f6a83a5b4",
+        "size": 176
+      },
+      {
+        "key": "Volumes_Expansion_.openclaw/sandboxes/agent-ga-tydrodacalmdon-555b9f8c/skills/mcporter/SKILL.md",
+        "file": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v5/RAW/Volumes_Expansion_.openclaw/sandboxes/agent-ga-tydrodacalmdon-555b9f8c/skills/mcporter/SKILL.md",
+        "sha256": "a9a860f7453f33ca3474b5fadff48969271e82733db6479cdfc96d9ce6752214",
+        "size": 1674
+      },
+      {
+        "key": "Volumes_Expansion_.openclaw/workspace-ga-createshinnsllc/.git/objects/15/086381eeedc5db936d5c49e0bd10f88e5e5a1d",
+        "file": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v5/RAW/Volumes_Expansion_.openclaw/workspace-ga-createshinnsllc/.git/objects/15/086381eeedc5db936d5c49e0bd10f88e5e5a1d",
+        "sha256": "43be651b7bdde21e971a71b9379dfec37d4fcb8eb05474f23d0a9e3cefd732df",
+        "size": 147
+      },
+      {
+        "key": "Volumes_Expansion_.openclaw/workspace-ga-tydroelite/._.pi",
+        "file": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v5/RAW/Volumes_Expansion_.openclaw/workspace-ga-tydroelite/._.pi",
+        "sha256": "9b44a7b36e74ef57be20df9601634444055715f5ddfe6fe4abc2d2ab3945dc0e",
+        "size": 4096
+      },
+      {
+        "key": "Volumes_Expansion_FxFactory_Rowie Graphics Chatterbox.fxtemplates/Assets/Slide 1 A config/Crosshair Minute.png",
+        "file": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v5/RAW/Volumes_Expansion_FxFactory_Rowie Graphics Chatterbox.fxtemplates/Assets/Slide 1 A config/Crosshair Minute.png",
+        "sha256": "bfba884afc087f515c4e5feb06b53ba17176191c614e33497ad4b084d9c9e535",
+        "size": 2857
+      },
+      {
+        "key": "Volumes_Expansion_LOGIC UNIVERSE_LOGIG 3rd-party soundbank_Cymatics - Mythic RnB Melody Collection_- Loop Stems & MIDI_Cymatics - Memory - 75 BPM G# Min/Cymatics - Memory - 75 BPM G# Min Perc.wav",
+        "file": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v5/RAW/Volumes_Expansion_LOGIC UNIVERSE_LOGIG 3rd-party soundbank_Cymatics - Mythic RnB Melody Collection_- Loop Stems & MIDI_Cymatics - Memory - 75 BPM G# Min/Cymatics - Memory - 75 BPM G# Min Perc.wav",
+        "sha256": "c72ea472a1c930675d2bef52f580667458ce50c102c0807b5b1c789f8caba73e",
+        "size": 9830568
+      },
+      {
+        "key": "Volumes_Expansion_LOGIC UNIVERSE_LOGIG 3rd-party soundbank_extra music sounds_Exports Melody Pack/Stems And MIDI/Price/Price - 144BPM - D# Minor - Synth.wav",
+        "file": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v5/RAW/Volumes_Expansion_LOGIC UNIVERSE_LOGIG 3rd-party soundbank_extra music sounds_Exports Melody Pack/Stems And MIDI/Price/Price - 144BPM - D# Minor - Synth.wav",
+        "sha256": "399680384b496dfaafe042139a5a43f967ea8f06da7e67fa24c513a5c8d66155",
+        "size": 2505050
+      },
+      {
+        "key": "Volumes_Expansion_LOGIC UNIVERSE_samples_Symphonic-Hip-Hop-5-Apple-Loops_071 The Memory File Em/071-The-Memory-File-Em-Bass-Complete.aif",
+        "file": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v5/RAW/Volumes_Expansion_LOGIC UNIVERSE_samples_Symphonic-Hip-Hop-5-Apple-Loops_071 The Memory File Em/071-The-Memory-File-Em-Bass-Complete.aif",
+        "sha256": "7913e3c33faec5e79d40b2f08bf7102313a509bd4d2a1bcb0c025a22d9cd998d",
+        "size": 14311274
+      },
+      {
+        "key": "Volumes_Expansion_FxFactory_Rowie Graphics Chatterbox.fxtemplates/Assets/Thumbnails/Reactions 2.jpg",
+        "file": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v5/RAW/Volumes_Expansion_FxFactory_Rowie Graphics Chatterbox.fxtemplates/Assets/Thumbnails/Reactions 2.jpg",
+        "sha256": "a5c94d57a8ed05f8d88a4a7cc37c1a615a49b076409b95f8efeb80f3f3be32c1",
+        "size": 11683
+      },
+      {
+        "key": "Volumes_Expansion_.openclaw/browser/openclaw/user-data/Default/Cache/Cache_Data/5b3ad588c0d28159_0",
+        "file": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v5/RAW/Volumes_Expansion_.openclaw/browser/openclaw/user-data/Default/Cache/Cache_Data/5b3ad588c0d28159_0",
+        "sha256": "b38d6089207ed524da1707faefc7d584a95c3083460c258d3b62c7312b2c0c0c",
+        "size": 29629
+      },
+      {
+        "key": "Volumes_Expansion_FxFactory_Rowie Graphics Chatterbox.fxtemplates/Templates/9F14B724-E34D-40B9-9238-DC5CDFCB2A39.moti",
+        "file": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v5/RAW/Volumes_Expansion_FxFactory_Rowie Graphics Chatterbox.fxtemplates/Templates/9F14B724-E34D-40B9-9238-DC5CDFCB2A39.moti",
+        "sha256": "3675f550bdf24e748c8dcc4ca09912c44b1480e94ed6a2bc55d112318d37050d",
+        "size": 3289757
+      },
+      {
+        "key": "Volumes_Expansion_.openclaw/sandboxes/agent-ga-tydroelite-3909e353/skills/video-frames/SKILL.md",
+        "file": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v5/RAW/Volumes_Expansion_.openclaw/sandboxes/agent-ga-tydroelite-3909e353/skills/video-frames/SKILL.md",
+        "sha256": "f5cb2b9e7755b990bd4c8b75799a0d915d9c20a02ae592877586ccbdbffdc364",
+        "size": 964
+      },
+      {
+        "key": "Volumes_Expansion_LOGIC UNIVERSE_LOGIG 3rd-party soundbank_Cymatics - Alchemy - Launch Edition_Cymatics - Legends Synth One Shot Library Pt. 2_Moog Memorymoog/Cymatics - Legends - Moog Memorymoog - PAD Broken Wings - C.wav",
+        "file": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v5/RAW/Volumes_Expansion_LOGIC UNIVERSE_LOGIG 3rd-party soundbank_Cymatics - Alchemy - Launch Edition_Cymatics - Legends Synth One Shot Library Pt. 2_Moog Memorymoog/Cymatics - Legends - Moog Memorymoog - PAD Broken Wings - C.wav",
+        "sha256": "11a7416910ac8c727b16478813fa8946aaa71bb8b55f4b80293864947048fc41",
+        "size": 2941958
+      },
+      {
+        "key": "Volumes_Expansion_LOGIC UNIVERSE_LOGIG 3rd-party soundbank_extra music sounds_Exports Melody Pack/Stems And MIDI/Sleep At Night/Sleep At Night - 163 BPM D Min Pluck.wav",
+        "file": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v5/RAW/Volumes_Expansion_LOGIC UNIVERSE_LOGIG 3rd-party soundbank_extra music sounds_Exports Melody Pack/Stems And MIDI/Sleep At Night/Sleep At Night - 163 BPM D Min Pluck.wav",
+        "sha256": "024bb50090c7538f956805625e6e8023e3d3ea1d2007b174706640f1ceac4bb8",
+        "size": 4426220
+      },
+      {
+        "key": "Volumes_Expansion_.openclaw/workspace/openclaw-orchestrator.config.config.json.bak.mlx-20260304-161828",
+        "file": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v5/RAW/Volumes_Expansion_.openclaw/workspace/openclaw-orchestrator.config.config.json.bak.mlx-20260304-161828",
+        "sha256": "53c7daa011be2f4bc7fe2c7f29124e8b65d52796285e5fc4cf266c35fe9effbf",
+        "size": 12557
+      },
+      {
+        "key": "Volumes_Expansion_.openclaw/workspace-ga-createshinnsllc/.git/logs/HEAD",
+        "file": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v5/RAW/Volumes_Expansion_.openclaw/workspace-ga-createshinnsllc/.git/logs/HEAD",
+        "sha256": "9e5806a47d4bcad2ac499b4197230c670bf4ea71839e6c4961cc245ca55dc70a",
+        "size": 4548
+      }
+    ],
+    "EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4": [
+      {
+        "key": "Users_tydroelite_.openclaw/.openclaw/agents/main/agent/models.json",
+        "file": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4/RAW/Users_tydroelite_.openclaw/.openclaw/agents/main/agent/models.json",
+        "sha256": "b44a11b5973125947ad7e6bc04bbd6722f34a37dbdebec94d393c4c115dd28a1",
+        "size": 6958
+      },
+      {
+        "key": "Users_tydroelite_.openclaw/workspace/OBSIDIAN_WORKSPACE_SYNC_CRITERIA.md",
+        "file": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4/RAW/Users_tydroelite_.openclaw/workspace/OBSIDIAN_WORKSPACE_SYNC_CRITERIA.md",
+        "sha256": "5497e2eca2a8fbd582cadf716f84e926c953fc1287cb2e25028a6d807cf35b1e",
+        "size": 812
+      },
+      {
+        "key": "Users_tydroelite_Documents_Obsidian_Vault_OpenClaw/Backups/2026-02-26-monetization-agent-stack-v3/workspace-inject/models.inject.template.json",
+        "file": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4/RAW/Users_tydroelite_Documents_Obsidian_Vault_OpenClaw/Backups/2026-02-26-monetization-agent-stack-v3/workspace-inject/models.inject.template.json",
+        "sha256": "bec501c406af44f25ed2be67f9b4ba793dbf937b76f0afd23e996b4ed73abea3",
+        "size": 3777
+      },
+      {
+        "key": "Volumes_Expansion_.openclaw/agents/ga-nizamshinn79/qmd/xdg-cache/qmd/index.sqlite",
+        "file": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4/RAW/Volumes_Expansion_.openclaw/agents/ga-nizamshinn79/qmd/xdg-cache/qmd/index.sqlite",
+        "sha256": "1341369045ca767abc5313a60b1dacb1f8557a71973320cae692fac7fdc18c4b",
+        "size": 5849088
+      },
+      {
+        "key": "Volumes_Expansion_.openclaw/browser/openclaw/user-data/Default/Cache/Cache_Data/0aa5615704b569e0_0",
+        "file": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4/RAW/Volumes_Expansion_.openclaw/browser/openclaw/user-data/Default/Cache/Cache_Data/0aa5615704b569e0_0",
+        "sha256": "d2ccc59ae9388c1c04475d938f7dbc8b80f8566519845c54dea5b3f534180300",
+        "size": 47470
+      },
+      {
+        "key": "Volumes_Expansion_.openclaw/browser/openclaw/user-data/Default/Cache/Cache_Data/acd20f4b33e91564_0",
+        "file": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4/RAW/Volumes_Expansion_.openclaw/browser/openclaw/user-data/Default/Cache/Cache_Data/acd20f4b33e91564_0",
+        "sha256": "112e5af6c4a2bfdd2d5707cd4bece8da55708c303e123a8a5c3659412bd65608",
+        "size": 69172
+      },
+      {
+        "key": "Volumes_Expansion_.openclaw/browser/openclaw/user-data/Default/Code Cache/js/89396f516082fe8f_0",
+        "file": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4/RAW/Volumes_Expansion_.openclaw/browser/openclaw/user-data/Default/Code Cache/js/89396f516082fe8f_0",
+        "sha256": "e444b81ae8faa4d7a147fb1da7649e35a226ac1283eaa7ab5e753674afb80986",
+        "size": 284
+      },
+      {
+        "key": "Volumes_Expansion_.openclaw/browser/openclaw/user-data/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Icons/48.png",
+        "file": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4/RAW/Volumes_Expansion_.openclaw/browser/openclaw/user-data/Default/Web Applications/Manifest Resources/fhihpiojkbmbpdjeoajapmgkhlnakfjf/Icons/48.png",
+        "sha256": "7b1aa50219251762867246b79677fac99c1b61a4ef4e471ae3473c10ada2c50b",
+        "size": 1404
+      },
+      {
+        "key": "Volumes_Expansion_.openclaw/browser/openclaw/user-data/optimization_guide_model_store/9/E6DC4029A1E4B4C1/._CB092DF8FCAA4102",
+        "file": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4/RAW/Volumes_Expansion_.openclaw/browser/openclaw/user-data/optimization_guide_model_store/9/E6DC4029A1E4B4C1/._CB092DF8FCAA4102",
+        "sha256": "35f5c2cfcc52685fe216997c7ed2240295f34ad5c235d1931f5cf080bf71a29c",
+        "size": 4096
+      },
+      {
+        "key": "Volumes_Expansion_.openclaw/quarantine/larry-disabled-20260226-075552/references/app-categories.md",
+        "file": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4/RAW/Volumes_Expansion_.openclaw/quarantine/larry-disabled-20260226-075552/references/app-categories.md",
+        "sha256": "2fc1191d854165a447991878e22f6b409942b3a60dd3e7fd9e6f255fab2838f0",
+        "size": 2170
+      },
+      {
+        "key": "Volumes_Expansion_.openclaw/sandboxes/agent-ga-tydrodacalmdon-555b9f8c/skills/apple-reminders/SKILL.md",
+        "file": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4/RAW/Volumes_Expansion_.openclaw/sandboxes/agent-ga-tydrodacalmdon-555b9f8c/skills/apple-reminders/SKILL.md",
+        "sha256": "75f6b4bbe4eb91ab563f597a5b83442fec1969d6fb4ddae069b5bac74fe2b0b8",
+        "size": 3123
+      },
+      {
+        "key": "Volumes_Expansion_.openclaw/sandboxes/agent-ga-tydroelite1-cdb81c0d/skills/sherpa-onnx-tts/bin/sherpa-onnx-tts",
+        "file": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4/RAW/Volumes_Expansion_.openclaw/sandboxes/agent-ga-tydroelite1-cdb81c0d/skills/sherpa-onnx-tts/bin/sherpa-onnx-tts",
+        "sha256": "542d46f42f5ff8d22ed71f58ca052e4e525a337d90bd25664a6237b6da56fd2a",
+        "size": 4811
+      },
+      {
+        "key": "Volumes_Expansion_.openclaw/sandboxes/agent-ga-tydrodacalmdon-555b9f8c/skills/coordinator/SKILL.md",
+        "file": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4/RAW/Volumes_Expansion_.openclaw/sandboxes/agent-ga-tydrodacalmdon-555b9f8c/skills/coordinator/SKILL.md",
+        "sha256": "97f281ddc2583c92df770dcff905d2d6ebf735e2f54357e7dae246f235f0b0d8",
+        "size": 2647
+      },
+      {
+        "key": "Users_tydroelite_.openclaw/workspace/.git/objects/c6/71cda7dcc6f3c998f790abe32723030b4ec764",
+        "file": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4/RAW/Users_tydroelite_.openclaw/workspace/.git/objects/c6/71cda7dcc6f3c998f790abe32723030b4ec764",
+        "sha256": "c5f48756bbce8662f1d857973686e74eaf71c179938a2b4ea6c2a697a1126514",
+        "size": 363
+      },
+      {
+        "key": "Volumes_Expansion_.openclaw/browser/openclaw/user-data/Default/Code Cache/js/415b1f1fd7f3d9e3_0",
+        "file": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4/RAW/Volumes_Expansion_.openclaw/browser/openclaw/user-data/Default/Code Cache/js/415b1f1fd7f3d9e3_0",
+        "sha256": "d881ba38510aa0b218ff4f90dea5e2f953139e8f4f23c5997ded636250e92fad",
+        "size": 275
+      },
+      {
+        "key": "Users_tydroelite_Documents_Obsidian_Vault_OpenClaw/Backups/2026-02-26-monetization-agent-stack-v4/skills/social-monetization-os/references/templates/asset-registry-template.csv",
+        "file": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4/RAW/Users_tydroelite_Documents_Obsidian_Vault_OpenClaw/Backups/2026-02-26-monetization-agent-stack-v4/skills/social-monetization-os/references/templates/asset-registry-template.csv",
+        "sha256": "d5eb40cc086d215aa7042486e1b76fbd7e1ae489436fed993542742ef5e0cad6",
+        "size": 231
+      },
+      {
+        "key": "Volumes_Expansion_.openclaw/browser/openclaw/user-data/Default/Local Storage/leveldb/MANIFEST-000001",
+        "file": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4/RAW/Volumes_Expansion_.openclaw/browser/openclaw/user-data/Default/Local Storage/leveldb/MANIFEST-000001",
+        "sha256": "f9d31b278e215eb0d0e9cd709edfa037e828f36214ab7906f612160fead4b2b4",
+        "size": 41
+      },
+      {
+        "key": "Volumes_Expansion_.openclaw/browser/openclaw/user-data/Default/Code Cache/js/18b6e6a1ddf51f4f_0",
+        "file": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4/RAW/Volumes_Expansion_.openclaw/browser/openclaw/user-data/Default/Code Cache/js/18b6e6a1ddf51f4f_0",
+        "sha256": "cbddc70311ca0d148c9dbb587f122aee00ec88032f20d7ad3a42ef8c535d6a81",
+        "size": 1973
+      },
+      {
+        "key": "Volumes_Expansion_.openclaw/browser/openclaw/user-data/Default/Code Cache/js/71ad24a3a9a36ec7_0",
+        "file": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4/RAW/Volumes_Expansion_.openclaw/browser/openclaw/user-data/Default/Code Cache/js/71ad24a3a9a36ec7_0",
+        "sha256": "fecf81dfeb5fb912248f44a220232cf6d81d1d4b3801ae57adaa3aa65ff9f9fe",
+        "size": 2199
+      },
+      {
+        "key": "Users_tydroelite_.openclaw_workspace/.git/objects/07/220b62b467de99c23ca69e4b2a6ec01629bad6",
+        "file": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4/RAW/Users_tydroelite_.openclaw_workspace/.git/objects/07/220b62b467de99c23ca69e4b2a6ec01629bad6",
+        "sha256": "d3bc595823982f2ead817b5999f4708c95efcfffe52aa52a04c4baf975a21309",
+        "size": 133
+      }
+    ]
+  },
+  "cross_set_sha256_sample": [
+    {
+      "key": "Volumes_Expansion_.openclaw/browser/openclaw/user-data/Default/DawnWebGPUCache/data_3",
+      "EXHAUSTIVE_CONSOLIDATION_2026-03-06_v5": "e09f42c398d688dce168570291f1f92d079987deda3099a34adb9e8c0522b30c",
+      "EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4": "e09f42c398d688dce168570291f1f92d079987deda3099a34adb9e8c0522b30c",
+      "match": true
+    },
+    {
+      "key": "Volumes_Expansion_.openclaw/browser/openclaw/user-data/Default/Code Cache/js/index",
+      "EXHAUSTIVE_CONSOLIDATION_2026-03-06_v5": "fbcfe23a2ecb82b7100c50811691dde0a33aa3da8d176be9882a9db485dc0f2d",
+      "EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4": "fbcfe23a2ecb82b7100c50811691dde0a33aa3da8d176be9882a9db485dc0f2d",
+      "match": true
+    },
+    {
+      "key": "Volumes_Expansion_.openclaw/browser/openclaw/user-data/Default/Code Cache/js/ac8e8b1a66bf1a90_0",
+      "EXHAUSTIVE_CONSOLIDATION_2026-03-06_v5": "9fbb48fb385767e92d961f291f7b1d6de9c11cd9a885b4b49d31d9e74203f7bb",
+      "EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4": "9fbb48fb385767e92d961f291f7b1d6de9c11cd9a885b4b49d31d9e74203f7bb",
+      "match": true
+    },
+    {
+      "key": "Volumes_Expansion_.openclaw/quarantine/larry-disabled-20260226-075552/scripts/daily-report.js",
+      "EXHAUSTIVE_CONSOLIDATION_2026-03-06_v5": "d972b77b59ec11d2ea4017527741ad9e71576f75c9b03662bcbc4624c1a7fd00",
+      "EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4": "d972b77b59ec11d2ea4017527741ad9e71576f75c9b03662bcbc4624c1a7fd00",
+      "match": true
+    },
+    {
+      "key": "Volumes_Expansion_.openclaw/browser/openclaw/user-data/Default/Cache/Cache_Data/7dfe1f0612de5645_0",
+      "EXHAUSTIVE_CONSOLIDATION_2026-03-06_v5": "03c7e8ff6c3d3bf778930332517309c2594ea6d5471acd658c8292ad6beeca99",
+      "EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4": "03c7e8ff6c3d3bf778930332517309c2594ea6d5471acd658c8292ad6beeca99",
+      "match": true
+    },
+    {
+      "key": "Volumes_Expansion_.openclaw/sandboxes/agent-ga-nizamshinn79-9fe730d9/skills/voice-call/SKILL.md",
+      "EXHAUSTIVE_CONSOLIDATION_2026-03-06_v5": "d3e2c6d3d4ab409b186684d250d77f47117a466d33e9d83e23f60831e768b3f4",
+      "EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4": "d3e2c6d3d4ab409b186684d250d77f47117a466d33e9d83e23f60831e768b3f4",
+      "match": true
+    },
+    {
+      "key": "Users_tydroelite_.openclaw_workspace/memory/index/2026-03-06-night-obsidian-refresh/source-map-refresh.md",
+      "EXHAUSTIVE_CONSOLIDATION_2026-03-06_v5": "3814974b4e45522db85c2ba2731a92f8ed1cc7190c6c22983c6d6d4836b5d856",
+      "EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4": "c628e1214b1c1d059b903d8be85cfbcd83e3e971ea7515395388860cde6c5fcc",
+      "match": false
+    },
+    {
+      "key": "Volumes_Expansion_.openclaw/agents/ga-createshinnsllc/sessions/16cb2a8d-0f64-4781-8df3-c73ec4f2b250.jsonl.deleted.2026-03-04T18-13-29.254Z",
+      "EXHAUSTIVE_CONSOLIDATION_2026-03-06_v5": "be46234ce2e22de1a1ec075356dab43cf6ad2abd895b7f90c9028c795b26ca03",
+      "EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4": "be46234ce2e22de1a1ec075356dab43cf6ad2abd895b7f90c9028c795b26ca03",
+      "match": true
+    },
+    {
+      "key": "Users_tydroelite_.openclaw/workspace/.git/objects/39/aa4b913065fc5a905115b8e2b87037c8615639",
+      "EXHAUSTIVE_CONSOLIDATION_2026-03-06_v5": "af12dd211c16e2fff11233cbead0068cf0a7a3254572cb51ee9da8c33926380a",
+      "EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4": "af12dd211c16e2fff11233cbead0068cf0a7a3254572cb51ee9da8c33926380a",
+      "match": true
+    },
+    {
+      "key": "Users_tydroelite_.openclaw_workspace/.git/objects/19/3789c384b6bf103b23056b75db5028114816bd",
+      "EXHAUSTIVE_CONSOLIDATION_2026-03-06_v5": "411ce94e77875fdaa66a1f3afec4ecc1c12caeb576dcf109fe07e65ee9eeadce",
+      "EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4": "411ce94e77875fdaa66a1f3afec4ecc1c12caeb576dcf109fe07e65ee9eeadce",
+      "match": true
+    }
+  ],
+  "cross_set_pass": false
+}

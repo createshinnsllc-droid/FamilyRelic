@@ -1,0 +1,168 @@
+{
+  "timestamp_local": "2026-03-06 05:31:22 EST",
+  "audit_dir": "/Users/tydroelite/.openclaw/workspace/memory/index/2026-03-06-expansion-integrity-audit-rehash-2026-03-06T05-31-22",
+  "target_sets": {
+    "latest": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v5",
+    "previous": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4"
+  },
+  "manifest_state": [
+    {
+      "set": "EXHAUSTIVE_CONSOLIDATION_2026-03-06_v5",
+      "path": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v5/manifests/sha256-manifest.txt",
+      "nonempty_lines": 0
+    },
+    {
+      "set": "EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4",
+      "path": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4/manifests/sha256-manifest.txt",
+      "nonempty_lines": 0
+    }
+  ],
+  "inventory_counts": {
+    "latest": 6685,
+    "previous": 4064
+  },
+  "delta": {
+    "new": 2737,
+    "removed": 116,
+    "drift": 45,
+    "common": 3948
+  },
+  "samples": {
+    "latest_spotcheck": {
+      "set": "EXHAUSTIVE_CONSOLIDATION_2026-03-06_v5",
+      "count": 20,
+      "receipt": "/Users/tydroelite/.openclaw/workspace/memory/index/2026-03-06-expansion-integrity-audit-rehash-2026-03-06T05-31-22/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v5-spotcheck.sha256"
+    },
+    "previous_spotcheck": {
+      "set": "EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4",
+      "count": 20,
+      "receipt": "/Users/tydroelite/.openclaw/workspace/memory/index/2026-03-06-expansion-integrity-audit-rehash-2026-03-06T05-31-22/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4-spotcheck.sha256"
+    },
+    "cross_shared_count": 20,
+    "cross_shared_match": 20,
+    "cross_shared_mismatch": 0
+  },
+  "cross_shared_results": [
+    {
+      "path": "RAW/Users_tydroelite_.openclaw/.openclaw/agents/main/agent/models.json",
+      "latest_sha256": "b44a11b5973125947ad7e6bc04bbd6722f34a37dbdebec94d393c4c115dd28a1",
+      "prev_sha256": "b44a11b5973125947ad7e6bc04bbd6722f34a37dbdebec94d393c4c115dd28a1",
+      "match": true
+    },
+    {
+      "path": "RAW/Users_tydroelite_.openclaw/workspace/.git/objects/8c/ddf5a81b5b4e9a4335f64f4dbe62464080e706",
+      "latest_sha256": "ac15d32f9eaeb9a7c85d4228640857e4eaae3b613625e7cbd995f33e20e16c2b",
+      "prev_sha256": "ac15d32f9eaeb9a7c85d4228640857e4eaae3b613625e7cbd995f33e20e16c2b",
+      "match": true
+    },
+    {
+      "path": "RAW/Users_tydroelite_.openclaw_workspace/.git/objects/ab/44756b7fd6203cf6c481c81508394ebfeb8dae",
+      "latest_sha256": "f11acfb45af91f8345d7c0f89146bc5197e2203f5f945bc763f32e3f31da4af3",
+      "prev_sha256": "f11acfb45af91f8345d7c0f89146bc5197e2203f5f945bc763f32e3f31da4af3",
+      "match": true
+    },
+    {
+      "path": "RAW/Volumes_Expansion_.openclaw/agents/ga-createshinnsllc/sessions/22ee2e94-d450-4a73-a05d-a490ac4865fd.jsonl",
+      "latest_sha256": "5aff440a6ff6aee34c463e5f1c05a0ed15332642ba9101fd417ebede4a41cb69",
+      "prev_sha256": "5aff440a6ff6aee34c463e5f1c05a0ed15332642ba9101fd417ebede4a41cb69",
+      "match": true
+    },
+    {
+      "path": "RAW/Volumes_Expansion_.openclaw/agents/ga-tydroelite/qmd/xdg-cache/bun/@t@/e6de6aff8145de49.pile",
+      "latest_sha256": "33fd185d4341dd49d22eeed7874172a968e1cffc122189130034efec58420944",
+      "prev_sha256": "33fd185d4341dd49d22eeed7874172a968e1cffc122189130034efec58420944",
+      "match": true
+    },
+    {
+      "path": "RAW/Volumes_Expansion_.openclaw/browser/openclaw/user-data/Default/._Extension State",
+      "latest_sha256": "35f5c2cfcc52685fe216997c7ed2240295f34ad5c235d1931f5cf080bf71a29c",
+      "prev_sha256": "35f5c2cfcc52685fe216997c7ed2240295f34ad5c235d1931f5cf080bf71a29c",
+      "match": true
+    },
+    {
+      "path": "RAW/Volumes_Expansion_.openclaw/browser/openclaw/user-data/Default/Cache/Cache_Data/5be3740cd8aa6146_0",
+      "latest_sha256": "1a3c521bbf6011648419c581caf27d6624794b8f557bea8d4c9f304f22dc08d4",
+      "prev_sha256": "1a3c521bbf6011648419c581caf27d6624794b8f557bea8d4c9f304f22dc08d4",
+      "match": true
+    },
+    {
+      "path": "RAW/Volumes_Expansion_.openclaw/browser/openclaw/user-data/Default/Cache/Cache_Data/d1d8a62b8b8eb880_0",
+      "latest_sha256": "28e67d6b315f2ead8a6822f6aae57fed381ee5eba35ab9ad225a13e62cc58bca",
+      "prev_sha256": "28e67d6b315f2ead8a6822f6aae57fed381ee5eba35ab9ad225a13e62cc58bca",
+      "match": true
+    },
+    {
+      "path": "RAW/Volumes_Expansion_.openclaw/browser/openclaw/user-data/Default/Code Cache/js/795d7f2c8f2dd4ab_0",
+      "latest_sha256": "4684b3f1c19eb731871a9ee92e20ab0b30de515760c1c6c6a168eccd02f98431",
+      "prev_sha256": "4684b3f1c19eb731871a9ee92e20ab0b30de515760c1c6c6a168eccd02f98431",
+      "match": true
+    },
+    {
+      "path": "RAW/Volumes_Expansion_.openclaw/browser/openclaw/user-data/Default/Login Data",
+      "latest_sha256": "d286c7aa59052c28a12e65c92aaf67b371b4006c9606c1bb9e1e2ec12db31813",
+      "prev_sha256": "d286c7aa59052c28a12e65c92aaf67b371b4006c9606c1bb9e1e2ec12db31813",
+      "match": true
+    },
+    {
+      "path": "RAW/Volumes_Expansion_.openclaw/browser/openclaw/user-data/Default/Web Applications/Manifest Resources/mpnpojknpmmopombnjdcgaaiekajbnjb/._Icons Maskable",
+      "latest_sha256": "35f5c2cfcc52685fe216997c7ed2240295f34ad5c235d1931f5cf080bf71a29c",
+      "prev_sha256": "35f5c2cfcc52685fe216997c7ed2240295f34ad5c235d1931f5cf080bf71a29c",
+      "match": true
+    },
+    {
+      "path": "RAW/Volumes_Expansion_.openclaw/media/inbound/file_113---665226c0-d81d-457e-a983-14cd10ee9c61.docx",
+      "latest_sha256": "cbdb7813339bc9317d5c1cfeea0701547cf69f2ce4190defaff8c94dbcc11cac",
+      "prev_sha256": "cbdb7813339bc9317d5c1cfeea0701547cf69f2ce4190defaff8c94dbcc11cac",
+      "match": true
+    },
+    {
+      "path": "RAW/Volumes_Expansion_.openclaw/quarantine/larry-disabled-20260226-075552/scripts/post-to-tiktok.js",
+      "latest_sha256": "249dc2d1027cfa33e19d9518f09676cb3114424be9b8633075d2290e91e9330d",
+      "prev_sha256": "249dc2d1027cfa33e19d9518f09676cb3114424be9b8633075d2290e91e9330d",
+      "match": true
+    },
+    {
+      "path": "RAW/Volumes_Expansion_.openclaw/sandboxes/agent-ga-nizamshinn79-9fe730d9/skills/notion/SKILL.md",
+      "latest_sha256": "b1ec55de3a74e1c0322c0731083f5c0b82356dc35e97cd7866ad17553ab43cff",
+      "prev_sha256": "b1ec55de3a74e1c0322c0731083f5c0b82356dc35e97cd7866ad17553ab43cff",
+      "match": true
+    },
+    {
+      "path": "RAW/Volumes_Expansion_.openclaw/sandboxes/agent-ga-tydroelite-3909e353/skills/gemini/SKILL.md",
+      "latest_sha256": "29205943f8adeb77ab24d4f473250c8970ee4d77f139166f119b6071c008318b",
+      "prev_sha256": "29205943f8adeb77ab24d4f473250c8970ee4d77f139166f119b6071c008318b",
+      "match": true
+    },
+    {
+      "path": "RAW/Volumes_Expansion_.openclaw/sandboxes/agent-main-f331f052/skills/eightctl/SKILL.md",
+      "latest_sha256": "a67bcb20983ae1658db7112c7a2e6573f68571ad8987cfb6b96be3fe7dbe451a",
+      "prev_sha256": "a67bcb20983ae1658db7112c7a2e6573f68571ad8987cfb6b96be3fe7dbe451a",
+      "match": true
+    },
+    {
+      "path": "RAW/Volumes_Expansion_.openclaw/workspace-ga-createshinnsllc/.git/objects/._0d",
+      "latest_sha256": "9b44a7b36e74ef57be20df9601634444055715f5ddfe6fe4abc2d2ab3945dc0e",
+      "prev_sha256": "9b44a7b36e74ef57be20df9601634444055715f5ddfe6fe4abc2d2ab3945dc0e",
+      "match": true
+    },
+    {
+      "path": "RAW/Volumes_Expansion_.openclaw/workspace-ga-createshinnsllc/.git/objects/97/7324166df6226d04deb7b6211af0355e6981fb",
+      "latest_sha256": "ad2e0d010bc43b7f76268bf79e1a75cf8e0271243a279b044e03d42139d15420",
+      "prev_sha256": "ad2e0d010bc43b7f76268bf79e1a75cf8e0271243a279b044e03d42139d15420",
+      "match": true
+    },
+    {
+      "path": "RAW/Volumes_Expansion_.openclaw/workspace-ga-createshinnsllc/memory/archive/2026-02-26-0814.md",
+      "latest_sha256": "4b71ae0ff4586ac1e134f51ae5d2a8d5b648050def3135afbc67997d977b4fe3",
+      "prev_sha256": "4b71ae0ff4586ac1e134f51ae5d2a8d5b648050def3135afbc67997d977b4fe3",
+      "match": true
+    },
+    {
+      "path": "RAW/Volumes_Expansion_.openclaw/workspace-ga-nizamshinn79/memory/archive/2026-02-05.md",
+      "latest_sha256": "4f42e68e0c1cae954987673633e73cbfc47ff94aa745442f9c705efc5be67532",
+      "prev_sha256": "4f42e68e0c1cae954987673633e73cbfc47ff94aa745442f9c705efc5be67532",
+      "match": true
+    }
+  ],
+  "mismatch_examples": []
+}

@@ -1,0 +1,195 @@
+{
+  "generated_at": "2026-03-06T04:02:43.664880-05:00",
+  "inventory_counts": {
+    "2026-03-05-full-raw-checkpoint-1": 714,
+    "EXHAUSTIVE_CONSOLIDATION_2026-03-06_v3": 15017,
+    "EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4": 3004
+  },
+  "manifest_status": [
+    {
+      "set": "2026-03-05-full-raw-checkpoint-1",
+      "exists": true,
+      "path": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/2026-03-05-full-raw-checkpoint-1/manifests/sha256-manifest.txt",
+      "size_bytes": 103431,
+      "lines": 714
+    },
+    {
+      "set": "EXHAUSTIVE_CONSOLIDATION_2026-03-06_v3",
+      "exists": true,
+      "path": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v3/manifests/sha256-manifest.txt",
+      "size_bytes": 0,
+      "lines": 0
+    },
+    {
+      "set": "EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4",
+      "exists": true,
+      "path": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4/manifests/sha256-manifest.txt",
+      "size_bytes": 0,
+      "lines": 0
+    }
+  ],
+  "comparisons": [
+    {
+      "from": "2026-03-05-full-raw-checkpoint-1",
+      "to": "EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4",
+      "from_count": 714,
+      "to_count": 2822,
+      "new_files": 2822,
+      "removed_files": 714,
+      "drift_files": 0,
+      "sample_new": [
+        "/Users/tydroelite/.openclaw/.openclaw/agents/main/agent/models.json",
+        "/Users/tydroelite/.openclaw/.openclaw/identity/device.json",
+        "/Users/tydroelite/.openclaw/agents/main/agent/auth-profiles.json"
+      ],
+      "sample_drift": []
+    },
+    {
+      "from": "EXHAUSTIVE_CONSOLIDATION_2026-03-06_v3",
+      "to": "EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4",
+      "from_count": 12559,
+      "to_count": 2822,
+      "new_files": 15,
+      "removed_files": 9752,
+      "drift_files": 16,
+      "sample_new": [
+        "/Users/tydroelite/.openclaw/agents/main/sessions/3714f921-15c5-4d38-b9be-9555f3c305e3.jsonl",
+        "/Users/tydroelite/.openclaw/agents/main/sessions/3d8ba03c-6d52-4e84-b876-a2bf52f66b19.jsonl",
+        "/Users/tydroelite/.openclaw/agents/main/sessions/3d8ba03c-6d52-4e84-b876-a2bf52f66b19.jsonl.lock"
+      ],
+      "sample_drift": [
+        "/Users/tydroelite/.openclaw/agents/main/agent/auth-profiles.json",
+        "/Users/tydroelite/.openclaw/agents/main/sessions/sessions.json",
+        "/Users/tydroelite/.openclaw/agents/main/sessions/7660ffa8-574b-447c-a6a0-ffae13d746a1.jsonl"
+      ]
+    }
+  ],
+  "spot_checks": {
+    "2026-03-05-full-raw-checkpoint-1": [
+      {
+        "index": 0,
+        "source_path": "data/home/.openclaw/agents/main/agent/._auth-profiles.json",
+        "mirrored_path": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/2026-03-05-full-raw-checkpoint-1/data/home/.openclaw/agents/main/agent/._auth-profiles.json",
+        "sha256": "68f667117ff789307989a06da542e437aa4361f0a2fe8a4c247666dd500aeea8",
+        "status": "PASS",
+        "error": null
+      },
+      {
+        "index": 178,
+        "source_path": "data/home/.openclaw/workspace/.git/config",
+        "mirrored_path": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/2026-03-05-full-raw-checkpoint-1/data/home/.openclaw/workspace/.git/config",
+        "sha256": "cae33efdb02cf774435c1ff9cb16bcc1014606908530c6e1dc727615fe3e8cda",
+        "status": "PASS",
+        "error": null
+      },
+      {
+        "index": 357,
+        "source_path": "data/workspace/workspace/.git/objects/8c/ddf5a81b5b4e9a4335f64f4dbe62464080e706",
+        "mirrored_path": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/2026-03-05-full-raw-checkpoint-1/data/workspace/workspace/.git/objects/8c/ddf5a81b5b4e9a4335f64f4dbe62464080e706",
+        "sha256": "ac15d32f9eaeb9a7c85d4228640857e4eaae3b613625e7cbd995f33e20e16c2b",
+        "status": "PASS",
+        "error": null
+      },
+      {
+        "index": 535,
+        "source_path": "data/obsidian/OpenClaw/Backups/2026-02-26-monetization-agent-stack-v3/skills/ai-video-postproduction-studio/references/._ai-video-and-postproduction-stack.md",
+        "mirrored_path": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/2026-03-05-full-raw-checkpoint-1/data/obsidian/OpenClaw/Backups/2026-02-26-monetization-agent-stack-v3/skills/ai-video-postproduction-studio/references/._ai-video-and-postproduction-stack.md",
+        "sha256": "68f667117ff789307989a06da542e437aa4361f0a2fe8a4c247666dd500aeea8",
+        "status": "PASS",
+        "error": null
+      },
+      {
+        "index": 713,
+        "source_path": "data/obsidian/._OpenClaw",
+        "mirrored_path": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/2026-03-05-full-raw-checkpoint-1/data/obsidian/._OpenClaw",
+        "sha256": "68f667117ff789307989a06da542e437aa4361f0a2fe8a4c247666dd500aeea8",
+        "status": "PASS",
+        "error": null
+      }
+    ],
+    "EXHAUSTIVE_CONSOLIDATION_2026-03-06_v3": [
+      {
+        "index": 0,
+        "source_path": "/Users/tydroelite/.openclaw/exec-approvals.json",
+        "mirrored_path": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v3/RAW/Users_tydroelite_.openclaw/exec-approvals.json",
+        "sha256": null,
+        "status": "ERROR",
+        "error": "[Errno 2] No such file or directory: '/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v3/RAW/Users_tydroelite_.openclaw/exec-approvals.json'"
+      },
+      {
+        "index": 3754,
+        "source_path": "/Volumes/Expansion/.openclaw/media/inbound/._file_62---18e97b80-b81d-438b-b6c4-7c9aefb197e4.zip",
+        "mirrored_path": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v3/RAW/Volumes_Expansion_.openclaw/media/inbound/._file_62---18e97b80-b81d-438b-b6c4-7c9aefb197e4.zip",
+        "sha256": null,
+        "status": "ERROR",
+        "error": "[Errno 2] No such file or directory: '/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v3/RAW/Volumes_Expansion_.openclaw/media/inbound/._file_62---18e97b80-b81d-438b-b6c4-7c9aefb197e4.zip'"
+      },
+      {
+        "index": 7508,
+        "source_path": "/Volumes/Expansion/.openclaw/browser/openclaw/user-data/Default/shared_proto_db/metadata/._MANIFEST-000001",
+        "mirrored_path": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v3/RAW/Volumes_Expansion_.openclaw_browser_openclaw/user-data/Default/shared_proto_db/metadata/._MANIFEST-000001",
+        "sha256": null,
+        "status": "ERROR",
+        "error": "[Errno 2] No such file or directory: '/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v3/RAW/Volumes_Expansion_.openclaw_browser_openclaw/user-data/Default/shared_proto_db/metadata/._MANIFEST-000001'"
+      },
+      {
+        "index": 11262,
+        "source_path": "/Volumes/Expansion/LOGIC UNIVERSE/audio PLUGZ/Cymatics - Keys (v1.0.0)/Sources/Synth - Memory/Memory Moog Synth - Memory Moog Synth - Velocity 41 - 068 - g#3.wav",
+        "mirrored_path": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v3/RAW/Volumes_Expansion_LOGIC_UNIVERSE_audio_PLUGZ_Cymatics_-_Keys__v1.0.0__Sources_Synth_-_Memory/Memory Moog Synth - Memory Moog Synth - Velocity 41 - 068 - g#3.wav",
+        "sha256": null,
+        "status": "ERROR",
+        "error": "[Errno 2] No such file or directory: '/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v3/RAW/Volumes_Expansion_LOGIC_UNIVERSE_audio_PLUGZ_Cymatics_-_Keys__v1.0.0__Sources_Synth_-_Memory/Memory Moog Synth - Memory Moog Synth - Velocity 41 - 068 - g#3.wav'"
+      },
+      {
+        "index": 15016,
+        "source_path": "/Volumes/Expansion/OPENCLAW EVERYTHING FILE/openclaw_workspace/node_modules/@ark/util/out/registry.d.ts",
+        "mirrored_path": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v3/RAW/Volumes_Expansion_OPENCLAW_EVERYTHING_FILE/openclaw_workspace/node_modules/@ark/util/out/registry.d.ts",
+        "sha256": null,
+        "status": "ERROR",
+        "error": "[Errno 2] No such file or directory: '/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v3/RAW/Volumes_Expansion_OPENCLAW_EVERYTHING_FILE/openclaw_workspace/node_modules/@ark/util/out/registry.d.ts'"
+      }
+    ],
+    "EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4": [
+      {
+        "index": 0,
+        "source_path": "/Users/tydroelite/.openclaw/.openclaw/agents/main/agent/models.json",
+        "mirrored_path": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4/RAW/Users_tydroelite_.openclaw/.openclaw/agents/main/agent/models.json",
+        "sha256": "b44a11b5973125947ad7e6bc04bbd6722f34a37dbdebec94d393c4c115dd28a1",
+        "status": "PASS",
+        "error": null
+      },
+      {
+        "index": 751,
+        "source_path": "/Volumes/Expansion/.openclaw/agents/ga-createshinnsllc/sessions/8be406ad-2d25-4005-8a5b-9189d8e57cd1.jsonl.reset.2026-02-26T08-14-51.314Z",
+        "mirrored_path": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4/RAW/Volumes_Expansion_.openclaw/agents/ga-createshinnsllc/sessions/8be406ad-2d25-4005-8a5b-9189d8e57cd1.jsonl.reset.2026-02-26T08-14-51.314Z",
+        "sha256": "2ffbc02d9dfcb6994953cb5d5e76a42b627adb5e75f0d6cf831ec0696841007a",
+        "status": "PASS",
+        "error": null
+      },
+      {
+        "index": 1502,
+        "source_path": "/Volumes/Expansion/.openclaw/browser/openclaw/user-data/Default/Cache/._Cache_Data",
+        "mirrored_path": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4/RAW/Volumes_Expansion_.openclaw/browser/openclaw/user-data/Default/Cache/._Cache_Data",
+        "sha256": "35f5c2cfcc52685fe216997c7ed2240295f34ad5c235d1931f5cf080bf71a29c",
+        "status": "PASS",
+        "error": null
+      },
+      {
+        "index": 2253,
+        "source_path": "/Volumes/Expansion/.openclaw/identity/device-auth.json",
+        "mirrored_path": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4/RAW/Volumes_Expansion_.openclaw/identity/device-auth.json",
+        "sha256": "2c34656c3cc7055345828d40ea375926f1a54f1f0230986bd83672cb5bee00a8",
+        "status": "PASS",
+        "error": null
+      },
+      {
+        "index": 3003,
+        "source_path": "/Volumes/Expansion/.openclaw/sandboxes/agent-ga-tydroelite1-cdb81c0d/skills/sherpa-onnx-tts/bin/sherpa-onnx-tts",
+        "mirrored_path": "/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4/RAW/Volumes_Expansion_.openclaw/sandboxes/agent-ga-tydroelite1-cdb81c0d/skills/sherpa-onnx-tts/bin/sherpa-onnx-tts",
+        "sha256": "542d46f42f5ff8d22ed71f58ca052e4e525a337d90bd25664a6237b6da56fd2a",
+        "status": "PASS",
+        "error": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+# Expansion Integrity Rehash & Audit Summary (2026-03-06 06:00 EST)
+
+- Mode: local-compute, non-destructive filesystem verification
+- Target sets:
+  - `/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v5`
+  - `/Volumes/Expansion/OpenClaw/centralized-checkpoints/EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4`
+- Manifest status (`manifests/sha256-manifest.txt` non-empty lines):
+  - `EXHAUSTIVE_CONSOLIDATION_2026-03-06_v5`: `0`
+  - `EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4`: `0`
+- Inventory counts:
+  - `EXHAUSTIVE_CONSOLIDATION_2026-03-06_v5`: `17641`
+  - `EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4`: `4060`
+- Delta (`EXHAUSTIVE_CONSOLIDATION_2026-03-06_v5` vs `EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4`):
+  - new: `13697`
+  - removed: `116`
+  - drift: `45`
+  - common: `3944`
+- SHA256 spot checks (regenerated):
+  - `EXHAUSTIVE_CONSOLIDATION_2026-03-06_v5`: `20` files
+  - `EXHAUSTIVE_CONSOLIDATION_2026-03-06_v4`: `20` files
+- Cross-set shared-path SHA256 sample:
+  - sample: `20`
+  - matches: `20`
+  - mismatches: `0`
