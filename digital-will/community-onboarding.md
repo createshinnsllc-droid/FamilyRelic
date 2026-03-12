@@ -3,11 +3,11 @@
 ## Phase 1: The Landing Spot (Immediate)
 **Goal:** Capture the momentum from IG/TikTok and convert "likes" into "builders."
 
-### 1. Telegram "War Room" (t.me/FamilyRelic)
+### 1. Telegram "Legacy Lab" (t.me/FamilyRelic)
 - **Welcome Message:** 
-  > "Welcome to the Family Relic. We aren't here to talk about AI, we're here to use it to stop our stories from dying with us. 
+  > "Welcome to the Family Relic Legacy Lab. We aren't here to talk about AI, we're here to use it to ensure our stories live on. 
   > 
-  > **The Mission:** Build an open-source vault that your kids can actually use. No subscriptions, no corporate gates. You own the data.
+  > **The Mission:** Build an open-source vault that your family can actually use. No subscriptions, no corporate gates. You own the legacy.
   > 
   > **First Step:** Watch the foundational video here: [YouTube Link]"
 - **Bot Setup:** Configure a simple "Mission Bot" to provide the link to the GitHub for those who want to see the scaffolding.
