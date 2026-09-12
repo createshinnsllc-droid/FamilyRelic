@@ -26,6 +26,6 @@ description: Apply a Karpathy-style feedback loop to improve the agent over time
 
 ## Guardrails
 
-- Do not modify OpenClaw config.
+- Do not revive or modify OpenClaw (permanently retired). Local = PC DeepSeek harness only.
 - Do not store secrets or personal data (follow `~/self-improving/boundaries.md`).
 - Keep entries concise and action-oriented.

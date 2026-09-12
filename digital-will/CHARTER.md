@@ -34,7 +34,9 @@ This project requires depth. The user (Tydro) is a deep thinker who engages phil
 - ~~The 5TB is the insurance policy against any compaction, reset, or model change losing what matters.~~
 
 ## Storage Directive (2026-09-12)
-- **Mac / Mac Studio decommissioned.** No local desktop host for OpenClaw, Obsidian mirror, LM Studio, or Cursor Remote Control.
-- **Primary persistence while Mac-less:** git commits on `FamilyRelic` (this repo) + Cursor Cloud Agent artifacts. Obsidian/`/Users/tydroelite/...` sync is offline until a replacement machine is designated.
+- **Mac / Mac Studio decommissioned.** No Mac desktop, no Cursor Remote Control.
+- **OpenClaw retired permanently.** Do not use or revive it.
+- **Local runtime:** PC DeepSeek harness only.
+- **Primary persistence:** git commits on `FamilyRelic` (this repo) + Cursor Cloud Agent artifacts.
 - Fidelity rule unchanged: preserve depth; do not compress Digital Will material unless necessary.
-- Open loop: ratify a cloud-first or new-hardware Policy of Truth (three-source sync) once a host exists again.
+- Open loop: document PC DeepSeek harness paths/runbooks when available; optional Obsidian-on-PC if designated.

@@ -2,6 +2,8 @@
 **The Digital Will | Launch Package**
 _Prepared: 2026-03-11_
 
+> **Infra note 2026-09-12:** OpenClaw is permanently retired. Any OpenClaw links/hashtags below are historical launch copy — do not ship or revive OpenClaw. Local stack = PC DeepSeek harness; cloud = Cursor Cloud Agents.
+
 ---
 
 ## 1. YOUTUBE TITLE (5 Options, Ranked)

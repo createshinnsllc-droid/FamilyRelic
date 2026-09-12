@@ -4,10 +4,11 @@ Keep ≤200 lines. High-signal only.
 
 ## Operator infrastructure (2026-09-12)
 
-- Mac / Mac Studio: **decommissioned**. Do not assume local desktop, LM Studio, Ollama, or `/Users/tydroelite/...` paths are available.
-- Do not recommend Cursor **Remote Control** (`/remote-control`) — requires a live computer.
-- Default execution path: **Cursor Cloud Agents** directed from **iOS** or web (`cursor.com/agents`).
-- Three-source Policy of Truth (OpenClaw workspace + Obsidian + local git) is **blocked on Mac-local layers** until a replacement machine or cloud-only persistence plan is ratified.
+- **OpenClaw: retired permanently.** Never install, run, sync, recommend, or revive it.
+- **Mac / Mac Studio: decommissioned.** No Mac-local paths or Cursor Remote Control.
+- **Local compute: PC DeepSeek harness only.** That is the only relevant local stack.
+- **Cloud path: Cursor Cloud Agents** via iOS or web (`cursor.com/agents`).
+- **Persistence: Git on FamilyRelic** is the required durable store. No OpenClaw workspace sync.
 
 ## Identity (stable)
 

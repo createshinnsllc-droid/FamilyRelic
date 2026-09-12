@@ -6,7 +6,7 @@ A secure, sovereign, and cross-generational data storage system. It must survive
 ## 2. Core Architecture: The "Sovereign Stack"
 - **Storage Layer:** IPFS (InterPlanetary File System) or encrypted local-first storage. No reliance on a single company (Google/Apple) keeping the account active.
 - **Encryption:** AES-256 with a "Shamir's Secret Sharing" scheme. The key is split among trusted contacts or released via a "Dead Man's Switch."
-- **Access Protocol:** OpenClaw-based "Custodian Agent" that monitors for inactivity and initiates the "Continuity Protocol."
+- **Access Protocol:** Custodian Agent (not OpenClaw — OpenClaw retired 2026-09-12) that monitors for inactivity and initiates the Continuity Protocol. Implementation target: Cursor Cloud Agents + PC DeepSeek harness as needed.
 
 ## 3. Module 1: The "Identity Root"
 - **Goal:** Store the core essence of the creator (SOUL.md, VOICE.model, LOGIC.framework).
@@ -18,4 +18,4 @@ A secure, sovereign, and cross-generational data storage system. It must survive
 
 ## 5. Next Steps for Building
 1. Build a local prototype of an encrypted folder that auto-syncs to the GitHub Scaffolding.
-2. Implement the "Inactivity Monitor" logic in the OpenClaw Gateway.
+2. Implement the "Inactivity Monitor" logic without OpenClaw (retired); prefer Cloud Agent / PC DeepSeek harness runbooks.

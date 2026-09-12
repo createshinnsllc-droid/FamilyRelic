@@ -1,15 +1,14 @@
 # Operating Rules
 
 ## Backup Rule
-**Status 2026-09-12:** Mac decommissioned — Obsidian/`/Users/tydroelite/...` mirror is **offline**. Until a replacement host is designated, persist via **git on FamilyRelic** (commit after significant writes). Do not pretend Mac-local sync succeeded.
+**Status 2026-09-12:**
+- **OpenClaw retired permanently** — no OpenClaw workspace sync, ever.
+- **Mac decommissioned** — no `/Users/tydroelite/...` mirrors.
+- Persist via **git on FamilyRelic** (commit after significant writes).
+- Local runtime when needed: **PC DeepSeek harness only**.
+- Obsidian only if explicitly designated on the PC later.
 
-When a local machine exists again, restore:
-- Obsidian path: `/Users/tydroelite/Documents/Obsidian Vault/` (or updated path)
-- Mirror all Digital Will vault files there
-- Mirror daily memory files there
-- Run `cp -r` from workspace memory to Obsidian after any significant session
-
- (Non-Negotiable when host is available)
+ (Non-Negotiable: commit significant writes; never claim OpenClaw sync)
 
 ## Core Principles
 - **Append-only by default.** Never overwrite/delete memory unless user explicitly authorizes.
@@ -38,7 +37,7 @@ When a local machine exists again, restore:
 - Scale quantity only after quality standard is met
 - No low-value filler output to simulate progress
 - Completion is not a stopping point — queue a harder follow-up
-- **YouTube Studio/High-Security Interaction Rule:** Avoid synthesized `click/type` tool actions via `profile: "chrome"` if timeouts occur. Pivot immediately to raw JavaScript injection (`evaluate`), OS-level `agent-browser` CLI, or a headless profile (`profile: "openclaw"`) to bypass relay latency.
+- **YouTube Studio/High-Security Interaction Rule:** Avoid synthesized `click/type` tool actions via `profile: "chrome"` if timeouts occur. Pivot immediately to raw JavaScript injection (`evaluate`), OS-level `agent-browser` CLI, or a headless browser profile to bypass relay latency.
 - **Relay-Independence Protocol (MANDATORY):** If a task requires browser interaction and the relay is OFF or timing out, the agent MUST NOT wait or ask for manual intervention. It must immediately spawn a headless worker or use OS-level automation to finish the task. Momentum must not break for a relay toggle.
 - **Overnight Batch Approval Workflow:** During overnight shifts, prepare all completed work into an "Approval Dashboard" (markdown file with inline buttons/summaries). The user should wake up to a single list of actions to "Approve/Execute."
 - **Credibility Check (MANDATORY):** Before outputting public links, social copy, or distribution packages, the agent must verify all links are valid and functional. No placeholder links in "final" delivery.

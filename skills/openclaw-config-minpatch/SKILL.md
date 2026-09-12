@@ -1,25 +1,22 @@
 ---
 name: openclaw-config-minpatch
-description: Apply minimal deterministic patches to OpenClaw configuration files. Use when a request asks to add, change, or remove specific config keys while preserving all unrelated structure and values.
+description: DEPRECATED 2026-09-12. OpenClaw is permanently retired. Do not use this skill. Do not patch OpenClaw configs.
 ---
 
-# OpenClaw Config Minpatch
+# DEPRECATED — OpenClaw Config Minpatch
 
-## Workflow
+**OpenClaw is permanently retired (2026-09-12).** Do not patch, install, or revive OpenClaw configuration.
+
+Use instead:
+- **Cloud:** Cursor Cloud Agents
+- **Local:** PC DeepSeek harness only
+- **Repo config:** FamilyRelic docs (`AGENTS.md`, `models.md`, `operating-rules.md`)
+
+Former minpatch workflow retained below as archive only — do not execute against any OpenClaw install.
+
+## Former workflow (do not execute)
 
 1. Read the target config file once and locate exact key paths.
 2. Identify the smallest valid change set that satisfies the request.
 3. Patch only affected keys; do not reformat unrelated sections.
 4. Re-read the file and verify only intended keys changed.
-
-## Output Contract
-
-Return only one of:
-
-- Executable config patch/content with no extra text
-- `CLARIFY: <single concise question>` when required inputs are missing
-
-## Verification
-
-1. Validate syntax with `jq . <file>` for JSON files.
-2. Compare diff and confirm no unrelated edits are present.

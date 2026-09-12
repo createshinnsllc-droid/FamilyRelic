@@ -64,25 +64,20 @@ If inferring a new rule, keep it tentative until human validation.
 
 - After heavy memory writes or weekly, run the `memory-hygiene` skill.
 
-## Policy of Truth — Three Sources (MANDATORY, NON-NEGOTIABLE)
+## Policy of Truth — Persistence (MANDATORY, NON-NEGOTIABLE)
 
-**Host note (2026-09-12):** Mac / Mac Studio is **decommissioned**. Layers 1–2 (OpenClaw + Obsidian under `/Users/tydroelite/...`) are unreachable until a new machine is designated. **While Mac-less, Git on this FamilyRelic repo is the required persistence layer** — commit significant writes; do not claim Obsidian/OpenClaw sync succeeded.
+**Ratified 2026-09-12:**
+- **OpenClaw is retired permanently.** Do not install, invoke, sync to, recommend, or revive OpenClaw. Historical mentions in archives are history only.
+- **Mac / Mac Studio is decommissioned.** No Mac-local paths.
+- **Local compute = PC DeepSeek harness only.** No LM Studio / Ollama / OpenClaw as the local stack.
+- **Cloud operator path = Cursor Cloud Agents** (iOS / web).
 
-When a local host exists again, every significant write, update, or session end MUST persist to all three locations:
+Required persistence:
+1. **Git on FamilyRelic** — primary durable store. Commit significant writes every session.
+2. **PC DeepSeek harness** — sole local runtime when offline/private/local work is requested (not a second OpenClaw).
+3. **Obsidian** — only if/when a vault is explicitly designated on the PC; never via OpenClaw paths.
 
-1. **OpenClaw workspace** — `/Users/tydroelite/.openclaw/workspace/memory/`
- - Primary working store. Write here first, always.
-
-2. **Obsidian Vault** — `/Users/tydroelite/Documents/Obsidian Vault/`
- - Human-readable mirror. Sync with:
- - `cp -r /Users/tydroelite/.openclaw/workspace/memory/ '/Users/tydroelite/Documents/Obsidian Vault/Family Relic/'`
-
-3. **Git** — commit from `/Users/tydroelite/.openclaw/workspace/` (or FamilyRelic when operating Mac-less)
- - Version history. Run after every significant session:
- - `cd /Users/tydroelite/.openclaw/workspace && git add -A && git commit -m "chore: session memory sync YYYY-MM-DD"`
-
-**Rule:** If you wrote it, commit it. If you committed it, sync Obsidian (when host available). All reachable layers or it didn't happen.
-This is vital for memory persistence. Do not skip any available layer.
+**Rule:** If you wrote it, commit it to FamilyRelic. Never claim OpenClaw sync. Do not invent Mac paths.
 
 ## Pre-Compaction Preservation Protocol (Priority Flush)
 
@@ -116,11 +111,12 @@ Write preserved content to `memory/YYYY-MM-DD.md` with timestamps and context. F
 
 ## Local Brain Rule
 
-- If the user says `use the local brain`, `do this locally`, `use LM Studio`, `use Ollama`, or asks to keep work offline/private, treat that as a delegation command.
-- In those cases, `main` should orchestrate and spawn the `local` subagent instead of answering directly from the frontier stack.
-- Pass the `local` subagent a compact context packet: objective, constraints, and exact files to read if continuity matters.
-- Only stay on `main` if the task truly requires web/browser/frontier capabilities that `local` does not have.
-- **2026-09-12:** Mac decommissioned — if asked for local brain and no replacement host is online, say local is offline and continue on Cloud Agent / frontier stack unless user designates another machine.
+- Local means **PC DeepSeek harness only**. OpenClaw / LM Studio / Ollama / Mac are not valid local targets.
+- If the user says `use the local brain`, `do this locally`, `use DeepSeek`, `use the PC harness`, or asks to keep work offline/private, treat that as a delegation command to the **PC DeepSeek harness**.
+- In those cases, `main` orchestrates and routes to the PC DeepSeek local runtime instead of answering from the frontier stack when the harness is reachable.
+- Pass a compact context packet: objective, constraints, and exact files to read if continuity matters.
+- Only stay on `main` / Cloud Agent if the task requires web/browser/frontier capabilities or the PC harness is unreachable — say so explicitly.
+- **Never** spawn or suggest OpenClaw for local work.
 
 ## Group Chats
 
