@@ -1,55 +1,28 @@
 # Model Infrastructure
 
-## Primary Stack (openclaw.json)
-- **Primary:** anthropic/claude-sonnet-4-6
+## Canonical agent: Cursor
+- **Cursor is the latest agent with the proper config.** Cloud Agents + this repo (`AGENTS.md`, skills, memory) are authoritative.
+- Do not prefer retired OpenClaw (or other legacy agent) configs over Cursor.
 
-## Fallback Chain (in order)
-1. openai-codex/gpt-5.4
-2. google-gemini-cli/gemini-3.1-pro-preview
-3. google-antigravity/gemini-3-flash
-4. ollama/glm-5:cloud
-5. ollama/kimi-k2.5:cloud
-6. ollama/minimax-m2:cloud (M2.1)
-7. ollama/llama3.3:latest
-8. ollama/qwen3.5:cloud
-9. google-gemini-cli/gemini-2.5-flash
-10. anthropic/claude-sonnet-4-6
-11. anthropic/claude-opus-4-6
-12. qwen-portal/coder-model
-13. openrouter-tydroelite1/meta-llama/llama-3.3-70b-instruct:free
-14. openrouter-tydrodacalmdon/mistralai/mistral-small-3.1-24b-instruct:free
-15. openrouter-tydro/google/gemma-3-27b-it:free
-16. openrouter-nizamshinn/qwen/qwen3-next-80b-a3b-instruct:free
+## Cloud (Cursor Cloud Agents)
+- Use whatever model the Cloud Agent run is configured with.
+- Operator surface: iOS / web Cloud Agents (Mac Remote Control is unavailable).
 
-## OpenRouter Keys (4 accounts — ROTATE ASAP, exposed in Telegram)
-- **tydroelite1@gmail.com** → sk-or-v1-8eb8... → Active Primary → Llama 3.3 70B Free
-- **tydrodacalmdon@gmail.com** → sk-or-v1-3b91... → Backup → Mistral Small 3.1 Free
-- **tydro** → sk-or-v1-b926... → Backup → Gemma 3 27B Free
-- **nizamshinn79@gmail.com** → sk-or-v1-1248... → Backup → Qwen 3 Next 80B Free
+## Local (ONLY relevant local stack)
+- **PC DeepSeek harness** — sole local runtime for offline / private / “local brain” work.
+- **Status:** online via Tailscale (2026-09-12). Endpoint (MagicDNS or `100.x` IP:port) still needs documenting in this repo.
+- Adjunct compute only — not a replacement for Cursor as the agent platform.
+- Do not route local work to OpenClaw, LM Studio, Ollama, or Mac hosts.
 
-## Local Ollama Models Available
-- glm-4.7-flash:latest (19 GB)
-- qwen3-coder-next:cloud
-- kimi-k2.5:cloud
-- minimax-m2.5:cloud / minimax-m2:cloud
-- qwen3.5:cloud
-- glm-5:cloud
-- llama3.3:latest (42 GB)
-- minimax-m2:cloud
-- qwen2.5-coder:14b / 7b
-- llama3.1:8b
-- qwen2.5:14b / 7b
-- qwen3:8b
-- gpt-oss:20b (13 GB)
-- lfm2.5-thinking:1.2b
+## Retired / do not use
+- **OpenClaw** — permanently retired 2026-09-12. Config, gateway, and OpenClaw model routing are historical only; not authoritative.
+- **Mac LM Studio / Mac Ollama** — host decommissioned; not the local stack.
 
-## LM Studio
-- Primary: qwen3.5-9b-abliterated-mlx
-- Fallback: mlx-qwen3.5-4b-claude-4.6-opus-reasoning-distilled
+## Legacy notes (historical — not active routing)
+Former OpenClaw primary/fallback chains, OpenRouter free-tier keys, and Mac MLX LM Studio entries lived here through early 2026. They are obsolete. Do not resurrect them into live routing.
 
 ## Tavily Search API
-- Key: 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
+- Key present in older notes; re-verify before use.
 - Endpoint: https://api.tavily.com/search
-- Usage: POST with {"api_key":"<key>","query":"<query>","max_results":5}
-- Status: verified working 2026-03-10
-- Note: Not natively supported by OpenClaw search config — used via exec/curl in overnight agent
+- Usage: POST with `{"api_key":"<key>","query":"<query>","max_results":5}`
+- Status: last verified 2026-03-10 (may be stale)

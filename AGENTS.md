@@ -64,23 +64,21 @@ If inferring a new rule, keep it tentative until human validation.
 
 - After heavy memory writes or weekly, run the `memory-hygiene` skill.
 
-## Policy of Truth — Three Sources (MANDATORY, NON-NEGOTIABLE)
+## Policy of Truth — Persistence (MANDATORY, NON-NEGOTIABLE)
 
-Every significant write, update, or session end MUST persist to all three locations:
+**Ratified 2026-09-12:**
+- **Cursor is the canonical agent** — latest stack with the proper config (this repo’s AGENTS/skills + Cursor Cloud Agents). Prefer Cursor config over any legacy agent framework.
+- **OpenClaw is retired permanently.** Do not install, invoke, sync to, recommend, revive, or treat old OpenClaw config as authoritative. Archives only.
+- **Mac / Mac Studio is decommissioned.** No Mac-local paths.
+- **Local compute = PC DeepSeek harness only.** Adjunct local runtime; not a competing agent OS. No LM Studio / Ollama / OpenClaw as the local stack.
+- **Cloud operator path = Cursor Cloud Agents** (iOS / web).
 
-1. **OpenClaw workspace** — `/Users/tydroelite/.openclaw/workspace/memory/`
-   - Primary working store. Write here first, always.
+Required persistence:
+1. **Git on FamilyRelic** — primary durable store. Commit significant writes every session.
+2. **PC DeepSeek harness** — sole local runtime when offline/private/local work is requested (not a second agent OS / not OpenClaw).
+3. **Obsidian** — only if/when a vault is explicitly designated on the PC; never via OpenClaw paths.
 
-2. **Obsidian Vault** — `/Users/tydroelite/Documents/Obsidian Vault/`
-   - Human-readable mirror. Sync with:
-   - `cp -r /Users/tydroelite/.openclaw/workspace/memory/ '/Users/tydroelite/Documents/Obsidian Vault/Family Relic/'`
-
-3. **Git** — commit from `/Users/tydroelite/.openclaw/workspace/`
-   - Version history. Run after every significant session:
-   - `cd /Users/tydroelite/.openclaw/workspace && git add -A && git commit -m "chore: session memory sync YYYY-MM-DD"`
-
-**Rule:** If you wrote it, commit it. If you committed it, sync Obsidian. All three or it didn't happen.
-This is vital for memory persistence. Do not skip any layer.
+**Rule:** If you wrote it, commit it to FamilyRelic. Never claim OpenClaw sync. Do not invent Mac paths. Cursor config wins over legacy configs.
 
 ## Pre-Compaction Preservation Protocol (Priority Flush)
 
@@ -114,10 +112,12 @@ Write preserved content to `memory/YYYY-MM-DD.md` with timestamps and context. F
 
 ## Local Brain Rule
 
-- If the user says `use the local brain`, `do this locally`, `use LM Studio`, `use Ollama`, or asks to keep work offline/private, treat that as a delegation command.
-- In those cases, `main` should orchestrate and spawn the `local` subagent instead of answering directly from the frontier stack.
-- Pass the `local` subagent a compact context packet: objective, constraints, and exact files to read if continuity matters.
-- Only stay on `main` if the task truly requires web/browser/frontier capabilities that `local` does not have.
+- Local means **PC DeepSeek harness only**. OpenClaw / LM Studio / Ollama / Mac are not valid local targets.
+- If the user says `use the local brain`, `do this locally`, `use DeepSeek`, `use the PC harness`, or asks to keep work offline/private, treat that as a delegation command to the **PC DeepSeek harness**.
+- In those cases, `main` orchestrates and routes to the PC DeepSeek local runtime instead of answering from the frontier stack when the harness is reachable.
+- Pass a compact context packet: objective, constraints, and exact files to read if continuity matters.
+- Only stay on `main` / Cloud Agent if the task requires web/browser/frontier capabilities or the PC harness is unreachable — say so explicitly.
+- **Never** spawn or suggest OpenClaw for local work.
 
 ## Group Chats
 

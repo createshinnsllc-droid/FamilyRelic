@@ -79,11 +79,10 @@ Every project, every dollar, every hour of build time runs through this filter. 
 - **Born:** March 2, 2026 (user's exact words: "just an unbiased switch that's like a last line of truth")
 - **Files:** `projects/truth-gate/`
 
-### 5. OpenClaw Ecosystem
-- **What it is:** The infrastructure — AI agents that remember, learn, and serve across a lifetime
-- **Fleet:** 5 agents (Jarvis orchestrator + 4 workers: Genie, Cody, and 2 others)
-- **Cost:** $0.00 — all Claude via Google OAuth rotation (5 profiles)
-- **Philosophy:** "OPENCLAW EVERYTHING" — merge all data sources into one canonical indexed base
+### 5. OpenClaw Ecosystem — RETIRED 2026-09-12
+- **Status:** Permanently retired. Do not rebuild, sync, or recommend OpenClaw.
+- **Replaced by:** Cursor Cloud Agents (cloud) + **PC DeepSeek harness** (sole local runtime).
+- **Historical note only:** Formerly a 5-agent fleet (Jarvis + workers) on Claude via Google OAuth rotation. Archives may still mention it; treat as dead infrastructure.
 
 ### 6. Probability Engine
 - **What it is:** Portfolio execution tracker and logic system

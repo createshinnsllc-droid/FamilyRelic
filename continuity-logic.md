@@ -5,7 +5,7 @@ The protocol must not rely on a single point of failure. It uses a weighted "Ina
 
 ### Signals:
 - **Direct Pings:** Weekly encrypted check-ins via Telegram/Signal. (Weight: 40%)
-- **System Activity:** Interaction with OpenClaw or authorized local machines. (Weight: 30%)
+- **System Activity:** Interaction with Cursor Cloud Agents (iOS/web), the PC DeepSeek harness, or other authorized machines. (Weight: 30%) — *Note 2026-09-12: OpenClaw retired; Mac decommissioned; local signal = PC DeepSeek harness when online.*
 - **Social/External Presence:** Verified activity on designated "Living Proof" channels. (Weight: 20%)
 - **Trusted Oracle:** A "Human Witness" (Heir) who can confirm status if other signals fail. (Weight: 10%)
 

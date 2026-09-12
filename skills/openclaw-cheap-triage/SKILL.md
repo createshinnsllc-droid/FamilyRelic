@@ -1,27 +1,27 @@
 ---
 name: openclaw-cheap-triage
-description: Troubleshoot OpenClaw with minimal token and compute cost. Use when diagnosing runtime failures, channel connectivity, or gateway health while avoiding deep probes and repeated heavy agent runs.
+description: DEPRECATED 2026-09-12. OpenClaw is permanently retired. Do not use this skill. Local work uses the PC DeepSeek harness only; cloud work uses Cursor Cloud Agents.
 ---
 
-# OpenClaw Cheap Triage
+# DEPRECATED — OpenClaw Cheap Triage
 
-## Workflow
+**OpenClaw is permanently retired (2026-09-12).** Do not run these commands. Do not diagnose or revive OpenClaw.
+
+Use instead:
+- **Cloud:** Cursor Cloud Agents (iOS / web)
+- **Local:** PC DeepSeek harness only
+
+The former workflow below is historical archive only.
+
+## Former workflow (do not execute)
 
 1. Collect the smallest useful snapshot first: status output and short log tail.
 2. Prefer read-only diagnostics before any config writes or restarts.
 3. Make one targeted change at a time.
 4. Verify outcome immediately after each change.
 
-## Commands
+## Former commands (do not execute)
 
 - `scripts/openclaw-triage.sh`
 - `openclaw channels status --probe`
 - `tail -n 120 /tmp/openclaw-gateway.log`
-
-## Escalation
-
-Run deeper probes only when minimal checks do not isolate root cause.
-
-## Verification
-
-Confirm channel status recovers and errors stop increasing in fresh log tails.
