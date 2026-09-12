@@ -10,6 +10,7 @@
 
 ## Local (ONLY relevant local stack)
 - **PC DeepSeek harness** — sole local runtime for offline / private / “local brain” work.
+- **Status:** online via Tailscale (2026-09-12). Endpoint (MagicDNS or `100.x` IP:port) still needs documenting in this repo.
 - Adjunct compute only — not a replacement for Cursor as the agent platform.
 - Do not route local work to OpenClaw, LM Studio, Ollama, or Mac hosts.
 
