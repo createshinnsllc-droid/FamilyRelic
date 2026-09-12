@@ -1,13 +1,15 @@
 # Operating Rules
 
 ## Backup Rule
-Every backup and every important memory write must also sync to the Obsidian Vault:
-- Obsidian path: `/Users/tydroelite/Documents/Obsidian Vault/`
+**Status 2026-09-12:** Mac decommissioned — Obsidian/`/Users/tydroelite/...` mirror is **offline**. Until a replacement host is designated, persist via **git on FamilyRelic** (commit after significant writes). Do not pretend Mac-local sync succeeded.
+
+When a local machine exists again, restore:
+- Obsidian path: `/Users/tydroelite/Documents/Obsidian Vault/` (or updated path)
 - Mirror all Digital Will vault files there
 - Mirror daily memory files there
 - Run `cp -r` from workspace memory to Obsidian after any significant session
 
- (Non-Negotiable)
+ (Non-Negotiable when host is available)
 
 ## Core Principles
 - **Append-only by default.** Never overwrite/delete memory unless user explicitly authorizes.

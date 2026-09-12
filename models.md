@@ -44,8 +44,9 @@
 - lfm2.5-thinking:1.2b
 
 ## LM Studio
-- Primary: qwen3.5-9b-abliterated-mlx
-- Fallback: mlx-qwen3.5-4b-claude-4.6-opus-reasoning-distilled
+- **Status 2026-09-12:** Host Mac decommissioned — treat local LM Studio as offline.
+- Primary (when host restored): qwen3.5-9b-abliterated-mlx
+- Fallback (when host restored): mlx-qwen3.5-4b-claude-4.6-opus-reasoning-distilled
 
 ## Tavily Search API
 - Key: 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

@@ -26,9 +26,15 @@ This project requires depth. The user (Tydro) is a deep thinker who engages phil
 
 ---
 
-## Storage Directive (2026-03-10)
-- Mac Studio has 5TB+ local storage available.
-- Use it aggressively. No reason to be conservative with file size for memory persistence.
-- Future goal: weekly full session log exports to local storage for maximum recall fidelity.
+## Storage Directive (2026-03-10) — SUPERSEDED 2026-09-12
+- ~~Mac Studio has 5TB+ local storage available.~~
+- ~~Use it aggressively. No reason to be conservative with file size for memory persistence.~~
+- ~~Future goal: weekly full session log exports to local storage for maximum recall fidelity.~~
 - Every conversation of depth should be preserved in full — not summarized, not compressed unless necessary.
-- The 5TB is the insurance policy against any compaction, reset, or model change losing what matters.
+- ~~The 5TB is the insurance policy against any compaction, reset, or model change losing what matters.~~
+
+## Storage Directive (2026-09-12)
+- **Mac / Mac Studio decommissioned.** No local desktop host for OpenClaw, Obsidian mirror, LM Studio, or Cursor Remote Control.
+- **Primary persistence while Mac-less:** git commits on `FamilyRelic` (this repo) + Cursor Cloud Agent artifacts. Obsidian/`/Users/tydroelite/...` sync is offline until a replacement machine is designated.
+- Fidelity rule unchanged: preserve depth; do not compress Digital Will material unless necessary.
+- Open loop: ratify a cloud-first or new-hardware Policy of Truth (three-source sync) once a host exists again.

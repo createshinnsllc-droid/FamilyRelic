@@ -66,21 +66,23 @@ If inferring a new rule, keep it tentative until human validation.
 
 ## Policy of Truth — Three Sources (MANDATORY, NON-NEGOTIABLE)
 
-Every significant write, update, or session end MUST persist to all three locations:
+**Host note (2026-09-12):** Mac / Mac Studio is **decommissioned**. Layers 1–2 (OpenClaw + Obsidian under `/Users/tydroelite/...`) are unreachable until a new machine is designated. **While Mac-less, Git on this FamilyRelic repo is the required persistence layer** — commit significant writes; do not claim Obsidian/OpenClaw sync succeeded.
+
+When a local host exists again, every significant write, update, or session end MUST persist to all three locations:
 
 1. **OpenClaw workspace** — `/Users/tydroelite/.openclaw/workspace/memory/`
-   - Primary working store. Write here first, always.
+ - Primary working store. Write here first, always.
 
 2. **Obsidian Vault** — `/Users/tydroelite/Documents/Obsidian Vault/`
-   - Human-readable mirror. Sync with:
-   - `cp -r /Users/tydroelite/.openclaw/workspace/memory/ '/Users/tydroelite/Documents/Obsidian Vault/Family Relic/'`
+ - Human-readable mirror. Sync with:
+ - `cp -r /Users/tydroelite/.openclaw/workspace/memory/ '/Users/tydroelite/Documents/Obsidian Vault/Family Relic/'`
 
-3. **Git** — commit from `/Users/tydroelite/.openclaw/workspace/`
-   - Version history. Run after every significant session:
-   - `cd /Users/tydroelite/.openclaw/workspace && git add -A && git commit -m "chore: session memory sync YYYY-MM-DD"`
+3. **Git** — commit from `/Users/tydroelite/.openclaw/workspace/` (or FamilyRelic when operating Mac-less)
+ - Version history. Run after every significant session:
+ - `cd /Users/tydroelite/.openclaw/workspace && git add -A && git commit -m "chore: session memory sync YYYY-MM-DD"`
 
-**Rule:** If you wrote it, commit it. If you committed it, sync Obsidian. All three or it didn't happen.
-This is vital for memory persistence. Do not skip any layer.
+**Rule:** If you wrote it, commit it. If you committed it, sync Obsidian (when host available). All reachable layers or it didn't happen.
+This is vital for memory persistence. Do not skip any available layer.
 
 ## Pre-Compaction Preservation Protocol (Priority Flush)
 
@@ -118,6 +120,7 @@ Write preserved content to `memory/YYYY-MM-DD.md` with timestamps and context. F
 - In those cases, `main` should orchestrate and spawn the `local` subagent instead of answering directly from the frontier stack.
 - Pass the `local` subagent a compact context packet: objective, constraints, and exact files to read if continuity matters.
 - Only stay on `main` if the task truly requires web/browser/frontier capabilities that `local` does not have.
+- **2026-09-12:** Mac decommissioned — if asked for local brain and no replacement host is online, say local is offline and continue on Cloud Agent / frontier stack unless user designates another machine.
 
 ## Group Chats
 
