@@ -4,9 +4,10 @@ Lightweight durable index. Detail lives in dated files and topic docs.
 
 ## Current operator setup (2026-09-12)
 
-- **OpenClaw: never again** (permanently retired).
+- **Canonical agent: Cursor** — latest agent with the proper config (this repo + Cloud Agents). Source of truth.
+- **OpenClaw: never again** (permanently retired; ignore old OpenClaw configs).
 - **No Mac.** Previous Mac / Mac Studio decommissioned.
-- **Local:** PC DeepSeek harness only.
+- **Local:** PC DeepSeek harness only (local compute adjunct, not a second agent OS).
 - **Cloud agent surface:** Cursor Cloud Agents + iOS/web.
 - **Repo persistence:** `createshinnsllc-droid/FamilyRelic` git commits.
 

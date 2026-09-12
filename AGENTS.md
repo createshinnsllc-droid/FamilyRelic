@@ -67,17 +67,18 @@ If inferring a new rule, keep it tentative until human validation.
 ## Policy of Truth — Persistence (MANDATORY, NON-NEGOTIABLE)
 
 **Ratified 2026-09-12:**
-- **OpenClaw is retired permanently.** Do not install, invoke, sync to, recommend, or revive OpenClaw. Historical mentions in archives are history only.
+- **Cursor is the canonical agent** — latest stack with the proper config (this repo’s AGENTS/skills + Cursor Cloud Agents). Prefer Cursor config over any legacy agent framework.
+- **OpenClaw is retired permanently.** Do not install, invoke, sync to, recommend, revive, or treat old OpenClaw config as authoritative. Archives only.
 - **Mac / Mac Studio is decommissioned.** No Mac-local paths.
-- **Local compute = PC DeepSeek harness only.** No LM Studio / Ollama / OpenClaw as the local stack.
+- **Local compute = PC DeepSeek harness only.** Adjunct local runtime; not a competing agent OS. No LM Studio / Ollama / OpenClaw as the local stack.
 - **Cloud operator path = Cursor Cloud Agents** (iOS / web).
 
 Required persistence:
 1. **Git on FamilyRelic** — primary durable store. Commit significant writes every session.
-2. **PC DeepSeek harness** — sole local runtime when offline/private/local work is requested (not a second OpenClaw).
+2. **PC DeepSeek harness** — sole local runtime when offline/private/local work is requested (not a second agent OS / not OpenClaw).
 3. **Obsidian** — only if/when a vault is explicitly designated on the PC; never via OpenClaw paths.
 
-**Rule:** If you wrote it, commit it to FamilyRelic. Never claim OpenClaw sync. Do not invent Mac paths.
+**Rule:** If you wrote it, commit it to FamilyRelic. Never claim OpenClaw sync. Do not invent Mac paths. Cursor config wins over legacy configs.
 
 ## Pre-Compaction Preservation Protocol (Priority Flush)
 

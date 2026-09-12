@@ -1,15 +1,20 @@
 # Model Infrastructure
 
+## Canonical agent: Cursor
+- **Cursor is the latest agent with the proper config.** Cloud Agents + this repo (`AGENTS.md`, skills, memory) are authoritative.
+- Do not prefer retired OpenClaw (or other legacy agent) configs over Cursor.
+
 ## Cloud (Cursor Cloud Agents)
 - Use whatever model the Cloud Agent run is configured with.
 - Operator surface: iOS / web Cloud Agents (Mac Remote Control is unavailable).
 
 ## Local (ONLY relevant local stack)
 - **PC DeepSeek harness** — sole local runtime for offline / private / “local brain” work.
+- Adjunct compute only — not a replacement for Cursor as the agent platform.
 - Do not route local work to OpenClaw, LM Studio, Ollama, or Mac hosts.
 
 ## Retired / do not use
-- **OpenClaw** — permanently retired 2026-09-12. Config, gateway, and OpenClaw model routing are historical only.
+- **OpenClaw** — permanently retired 2026-09-12. Config, gateway, and OpenClaw model routing are historical only; not authoritative.
 - **Mac LM Studio / Mac Ollama** — host decommissioned; not the local stack.
 
 ## Legacy notes (historical — not active routing)

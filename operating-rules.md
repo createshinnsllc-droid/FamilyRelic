@@ -2,13 +2,14 @@
 
 ## Backup Rule
 **Status 2026-09-12:**
-- **OpenClaw retired permanently** — no OpenClaw workspace sync, ever.
+- **Canonical agent: Cursor** — proper config lives here (Cloud Agents + this repo). Prefer over any legacy agent stack.
+- **OpenClaw retired permanently** — no OpenClaw workspace sync, ever; ignore old OpenClaw configs.
 - **Mac decommissioned** — no `/Users/tydroelite/...` mirrors.
 - Persist via **git on FamilyRelic** (commit after significant writes).
 - Local runtime when needed: **PC DeepSeek harness only**.
 - Obsidian only if explicitly designated on the PC later.
 
- (Non-Negotiable: commit significant writes; never claim OpenClaw sync)
+ (Non-Negotiable: commit significant writes; never claim OpenClaw sync; Cursor config wins)
 
 ## Core Principles
 - **Append-only by default.** Never overwrite/delete memory unless user explicitly authorizes.
